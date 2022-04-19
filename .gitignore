@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data & Model weights
+*/trained_models/*
+!*/trained_models/.keep
+*/data/*
+**/data/
+!*/data/.keep
+
+# Dotenv/ Distribution / packaging
+.e/
+.env*
+!.env.example
+env/
+venv/
+
+# IDE settings
+.idea/
+.spyderproject
+.spyproject
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IPython notebook
+.ipynb_checkpoints
+
+# PEP 582
+__pypackages__/
+
+# Sphinx documentation
+docs/_build/
+
+# Tensorboard
+model_stats/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pycover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Catboost generated files
+**/catboost_info/
+
